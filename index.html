@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRavel Card</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="main">
+        <form actions="#">
+            <button class="close">x</button>
+            <h5 class="card-title">Title</h5>
+
+            <label for="from">from</label>
+            <input type="text" name="from" id="from" required>
+            <br>
+            <label for="to">to</label>
+            <input type="text" name="to" id="to" required>
+            <br>
+            <label for="dateDep">Departure</label>
+            <input type="date" name="dateDep" id="dateDep" required>
+            <br>
+            <label for="dateArr">Return</label>
+            <input type="date" name="dateArr" id="dateArr" required>
+            <br>
+            <input type="submit" value="validate" class="validate">
+        </form>
+
+        <h3 class="title">travel</h3>
+        <nav>
+            <ul>
+                 <li><i class="fa-solid fa-plane" id="flight"></i></li>
+                 <li><i class="fa-solid fa-bus" id="bus"></i></li>
+                 <li><i class="fa-solid fa-car" id="car"></i></li>
+                 </ul>
+            </nav>
+        </section>
+    
+
+
+    <script src="./script.js"></script>
+</body>
+</html>
